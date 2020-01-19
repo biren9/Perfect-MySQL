@@ -7,7 +7,7 @@
 
 #if os(Linux)
 	import SwiftGlibc
-    typealias my_bool = char
+    typealias my_bool = u_char
 #else
 	import Darwin
 #endif
